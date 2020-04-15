@@ -12,7 +12,6 @@ file.choose()
 podaci <- as.data.frame(read.spss("C:\\O.R.I.-A.sav"))
 attach(podaci)
 
-
 head(podaci,10)
 
 # 0 NA elemenata
@@ -56,8 +55,3 @@ kval
 # analiza kvant
 kvant <- get_famd_var(podaci_fa, "quanti.var")
 head(kvant)
-
-
-
-
-
