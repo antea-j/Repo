@@ -25,11 +25,3 @@ print(cor_podaci)
 
 fa_podaci <- fa(cor_podaci, nfactors = 6)
 summary(fa_podaci)
-
-
-
-
-
-
-
-
