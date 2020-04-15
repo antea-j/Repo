@@ -6,7 +6,6 @@ library(corrplot)
 library(FactoMineR)
 library(factoextra)
 
-
 choose.files()
 podaci <- as.data.frame(read.spss("C:\\ISTR.A.sav"))
 attach(podaci)
@@ -14,7 +13,6 @@ attach(podaci)
 
 sum(is.na(podaci))
 cisti_podaci <- podaci[complete.cases(podaci),]
-
 
 matrix_podaci <- data.matrix(cisti_podaci, rownames.force = NA)
 print(matrix_podaci)
