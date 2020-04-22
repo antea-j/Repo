@@ -74,4 +74,11 @@ num_potrebni_podaci <- data.frame(var01, var02, var05, var07, var08, var09, var1
 korelacija <- cor(num_potrebni_podaci)
 korelacija
 
+# vizualizacija
+library(corrplot)
+library(ggcorrplot)
+corrplot(korelacija, method = "color")
+corrplot(korelacija, method = "number")
+corrplot(korelacija, type = "lower")
+
 
