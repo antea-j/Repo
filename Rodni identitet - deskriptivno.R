@@ -5,7 +5,6 @@ file.choose()
 podaci <- as.data.frame(read.spss("C:\\Users\\Mirela\\Desktop\\rodni identitet.sav"))
 cisti_podaci <- podaci[complete.cases(podaci),]
 
-
 var01 <- as.numeric(cisti_podaci$RI01)
 var02 <- as.numeric(cisti_podaci$RI02)
 var03 <- as.numeric(cisti_podaci$RI03)
