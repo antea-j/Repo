@@ -1,4 +1,4 @@
-# FAKTORSKA ANALIZA - rodni identitet i ogovaranje #
+# FAKTORSKA ANALIZA - rodni identitet i stavovi o ogovaranju #
 
 library(psych)
 library(GPArotation)
