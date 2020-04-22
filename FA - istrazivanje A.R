@@ -1,3 +1,4 @@
+# Faktorska analiza - cijelo istr. #
 
 library(foreign)
 library(GPArotation)
